@@ -1,3 +1,4 @@
+markdown
 # NLDT Neuroplasticity v3.4
 
 **Slow adaptive consolidation – From acute calcium signaling to therapeutic memory formation**
@@ -56,3 +57,85 @@ This replaces binary hysteresis with a **therapeutically relevant memory formati
 ### Requirements
 - Python 3.9 or higher
 - Required packages:
+pip install numpy matplotlib
+
+
+### Run the model
+python nldt_neuro_v3.4.py
+
+
+The interactive window opens with all controls.
+
+### Controls
+
+| Slider | Function |
+|--------|----------|
+| `Ca²⁺ SS (µM)` | Steady‑state calcium concentration |
+| `Ca²⁺ Peak (µM)` | Peak amplitude after stimulation |
+| `θ_LTD (µM)` | LTD threshold (Calcineurin) |
+| `θ_LTP (µM)` | LTP threshold (CaMKII T286) |
+| `α` | Consolidation rate (memory speed) |
+
+| Button | Function |
+|--------|----------|
+| `▶ Animation` | Automatic Ca²⁺ sweep |
+| `⇄ Bi-Exp` | Toggle mono‑/bi‑exponential transient |
+| `JSON Save / Load` | Save/load full model state |
+| `CSV Export` | Export sweep data |
+| `Save PNG` | Screenshot |
+| `Reset θ` | Reset thresholds to literature values |
+| `? Help` | Cycle through help topics |
+
+---
+
+## Interpretation
+
+- **Blue phase** – linear response, no consolidation
+- **Gold phase** – resonant state, S ≥ 0.68
+- **Φ_base** – consolidated therapeutic memory (slowly increases with each Ca²⁺ peak)
+
+The model shows that therapeutic breakthroughs are not binary switches – they **consolidate** over time. The parameter `α` controls how fast this consolidation happens.
+
+---
+
+## References
+
+- Bhalla, U. S. & Iyengar, R. (1999). *Science*, 283(5400), 381–387.
+- Chang, J. Y. et al. (2017). *PNAS*, 114(29), E5999–E6007.
+- Dudek, S. M. & Bear, M. F. (1992). *PNAS*, 89(10), 4363–4367.
+- Graupner, M. & Brunel, N. (2012). *PNAS*, 109(10), 3991–3996.
+- Mulkey, R. M. et al. (1993). *Science*, 261(5124), 1051–1055.
+- Oertner, T. G. et al. (2002). *Nat. Neurosci.*, 5(7), 657–665.
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Axel Zill-Zheng
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Author
+
+**Axel Zill-Zheng** | Homebase Xiamen NLDT LAB  
+© 2026 Axel Zill-Zheng
