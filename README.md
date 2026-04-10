@@ -1,5 +1,7 @@
 markdown
 # NLDT Neuroplasticity v3.4
+<img width="8761" height="4589" alt="NLDT_Neuro_v3 4_20260410_105121" src="https://github.com/user-attachments/assets/a317a910-6dc5-4d5e-aa91-b949058c0d6e" />
+
 
 **Slow adaptive consolidation – From acute calcium signaling to therapeutic memory formation**
 
