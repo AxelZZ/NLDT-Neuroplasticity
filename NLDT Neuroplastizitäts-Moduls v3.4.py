@@ -4,8 +4,13 @@
 """
 NLDT Neuroplasticity Module v3.4
 ================================
-Slow Adaptive Consolidation – From acute calcium signaling
-to therapeutic memory formation
+Slow Adaptive Consolidation – From acute calcium signaling to therapeutic memory formation
+
+DISCLAIMER:
+This model is a scientific simulation tool based on the NLDT framework.
+It is NOT a medical device, diagnostic tool, or treatment recommendation.
+The results are for research, educational, and exploratory purposes only.
+Always consult qualified healthcare professionals for medical advice.
 
 © 2026 Axel Zill-Zheng | Homebase Xiamen NLDT LAB
 All rights reserved.
