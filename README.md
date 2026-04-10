@@ -108,6 +108,9 @@ The model shows that therapeutic breakthroughs are not binary switches – they 
 - Oertner, T. G. et al. (2002). *Nat. Neurosci.*, 5(7), 657–665.
 
 ---
+## Disclaimer
+
+This model is a scientific simulation tool based on the NLDT framework. It is **not** a medical device, diagnostic tool, or treatment recommendation. The results are for research, educational, and exploratory purposes only. Always consult qualified healthcare professionals for medical advice.
 
 ## License
 
